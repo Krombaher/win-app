@@ -1,0 +1,43 @@
+.login {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #05071a;
+
+  button {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    border: none;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.signInBtn {
+  background-color: #4f5c69c4;
+  color: #fff;
+  transform: perspective(200px) rotateX(370deg) translateZ(25px) translateY(5px);
+  margin-top: 15px;
+}
+
+.signInBtn:hover {
+  transition: all 300ms;
+  color: #05071a;
+  background-color: #fff5d6;
+}
+
+.signUpBtn {
+  background-color: #fcc211;
+  color: #000;
+  transform: perspective(200px) rotateX(350deg) translateZ(25px) translateY(5px);
+}
+
+.signUpBtn:hover {
+  transition: all 300ms;
+  background-color: #9f0400;
+}
